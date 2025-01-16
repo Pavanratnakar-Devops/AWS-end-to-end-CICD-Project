@@ -12,7 +12,7 @@ phases:
   pre_build:
     commands:
       - echo "Installing dependencies..."
-      - pip install -r https://github.com/Pavanratnakar-Devops/AWS-end-to-end-CICD-Project/requirements.txt
+      - pip install -r AWS-end-to-end-CICD-Project\requirements.txt
   build:
     commands:
       - echo "Running tests..."
